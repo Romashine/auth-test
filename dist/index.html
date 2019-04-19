@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+</head>
+
+<body>
+    <script>
+        var inFormConfig = {
+            server: "http://your.server.com",
+            questions: [
+                {
+                    text: "What type of loan do you need?",
+                    variants: [
+                        { text: "Home Purchase", value: 0 },
+                        { text: "Home Refinance", value: 1 },
+                    ],
+                },
+                {
+                    text: "Great! What type of property are you purchasing?",
+                    variants: [
+                        { text: "Single Family Home", value: 0 },
+                        { text: "Condominium", value: 1 },
+                        { text: "Townhome", value: 2 },
+                        { text: "Multi-Family Home", value: 3 },
+                    ],
+                },
+                {
+                    text: "What is your phone number?",
+                    variants: [
+                        { text: "Excellent > 740", value: 0 },
+                        { text: "Good 700-739", value: 1 },
+                        { text: "Fair 660-699", value: 2 },
+                        { text: "Poor < 659", value: 3 },
+                    ],
+                },
+                {
+                    text: "Is this your first property purchase?",
+                    variants: [
+                        { text: "yes", value: 0 },
+                        { text: "No", value: 1 },
+                    ],
+                },
+                {
+                    text: "Do you like it?",
+                    variants: [
+                        { text: "yes", value: 0 },
+                        { text: "No", value: 1 },
+                    ],
+                },
+            ]
+        }
+    </script>
+    <div id="auth-test"></div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>

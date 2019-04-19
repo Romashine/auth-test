@@ -1,0 +1,60 @@
+ html{
+     background: #9fa8da;
+
+}
+
+.in-form-container{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.in-form-header{
+    height: 70px;
+}
+
+.in-form-image{
+    height: 150px;
+    /* background-image: url(http://day2daygallery.livehost.fr/images/Nouveau_fond_pied_de_page.jpg); */
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+
+.in-form-logo{
+    height: 50px;
+}
+.in-form-footer{
+    min-height: 80px;
+}
+.in-form-quest{
+    min-height: 500px;
+}
+
+.in-form-progress{
+-webkit-transition-property: width; /* Safari */
+-webkit-transition-duration: 2s; /* Safari */
+transition-property: width;
+transition-duration: 2s;
+}
+
+.w3-them{
+color:#1a237e !important;background-color:#e8eaf6 !important}
+.w3-text-theme {
+    color:#1a237e !important}
+.w3-theme-white{
+background-color:#fff !important}
+    .w3-theme-light {
+    color:#000 !important;background-color:#e8eaf6 !important}
+.w3-theme-medium {
+    color:#000 !important;background-color:#9fa8da !important}
+.w3-theme-dark{
+    color:#fff !important;background-color:#1a237e !important}
+.w3-theme-btn {
+    background-color:#5c6bc0}
+.w3-theme-btnon {
+    background-color:#9fa8da}
+    .w3-theme-action {
+        color:#fff !important;background-color:#5c6bc0 !important}
+        .w3-circle {
+            border-radius: 100%;
+        }
+
